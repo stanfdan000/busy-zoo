@@ -33,7 +33,7 @@ function App() {
       <SignLight color={lightColor} />
       <div className='buttons'>
         <button onClick={() => setLightColor ('red')}>sorry we are closed</button>
-        <button onClick={() => setLightColor ('green')}>welcome we are open</button>
+        <button onClick={() => setLightColor ('green')}>welcome</button>
       </div> 
 
 
