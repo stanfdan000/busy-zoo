@@ -60,3 +60,29 @@
     justify-content: space-around;
     align-items: stretch;
 }
+
+.Sign-light {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 150px;
+  border: gold 10px solid;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.Circle {
+  height: 100px;
+  width: 25px;
+  border-radius: 35px;
+  opacity: .25;
+}
+.on {
+  opacity: 1;
+}
